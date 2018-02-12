@@ -1,3 +1,8 @@
+body {
+    margin: auto 0;
+}
+
+
 header {
     width: 100%;
     font-family: 'Righteous', cursive;
@@ -54,4 +59,22 @@ ul {
     text-align: center;
     padding: 40px;
     background-color: slategrey;
+}
+.panel {
+    margin-top: 200px;
+}
+
+#h2 {
+    font-family: 'Righteous', cursive;
+    margin-bottom: 20px;
+    color: lemonchiffon;
+    background-color: darkgreen;
+    width: 183px;
+    padding: 12px;
+
+}
+
+#headshot {
+    float: left;
+    margin-right: 20px;
 }
