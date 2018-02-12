@@ -54,9 +54,12 @@ ul {
     text-align: center;
     padding: 40px;
     background-color: slategrey;
+    clear: both;
 }
+
 #container1 {
     margin-top: 200px;
+    margin-bottom: 120px;
 }
 
 #h2 {
@@ -66,7 +69,6 @@ ul {
     background-color: darkgreen;
     width: 183px;
     padding: 12px;
-
 }
 
 #headshot {
@@ -81,7 +83,6 @@ ul {
     background-color: darkgreen;
     width: 270px;
     padding: 18px;
-
 }
 
 .panel-body {
@@ -100,13 +101,19 @@ ul {
 }
 
 #connect {
-    margin-bottom: 100px;
+    margin-top: 200px;
 }
 
-.footer {
-    clear: both;
-}
+
 
 #portfolioBox {
     margin-top: 200px;
+    margin-bottom: 120px;
+}
+
+#caption span {
+    background-color: darkgreen;
+    position: absolute;
+    bottom: 0 auto;
+    color: lemonchiffon;
 }
