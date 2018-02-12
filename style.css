@@ -1,7 +1,7 @@
 body {
     margin: auto 0;
+    background-color: darkgreen;
 }
-
 
 header {
     width: 100%;
@@ -34,11 +34,6 @@ ul {
     margin-top: 33px;
 }
 
-.icons img {
-    width: 50%;
-    height: 50%;
-}
-
 #main {
     margin-left: -71px;
     margin-right: 10px;
@@ -60,7 +55,7 @@ ul {
     padding: 40px;
     background-color: slategrey;
 }
-.panel {
+#container1 {
     margin-top: 200px;
 }
 
@@ -77,4 +72,41 @@ ul {
 #headshot {
     float: left;
     margin-right: 20px;
+}
+
+#h3 {
+    font-family: 'Righteous', cursive;
+    margin-bottom: 10px;
+    color: lemonchiffon;
+    background-color: darkgreen;
+    width: 270px;
+    padding: 18px;
+
+}
+
+.panel-body {
+    padding: 15px;
+    background-color: lemonchiffon;
+    color: darkgreen;
+    font-family: 'Righteous', cursive;
+}
+
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: lemonchiffon;
+}
+
+#connect {
+    margin-bottom: 100px;
+}
+
+.footer {
+    clear: both;
+}
+
+#portfolioBox {
+    margin-top: 200px;
 }
