@@ -132,8 +132,11 @@ ul {
 
 @media screen and (max-width: 400px) {
     #navIcons {
-        width: 100%;
-        float: left;
-        align-content: center;
+    width: 100%;
+    float: left;
+    align-content: center;
+    margin-bottom: -22px;
+    margin-top: -18px;
+    margin-left: -105px;
     }
 }
