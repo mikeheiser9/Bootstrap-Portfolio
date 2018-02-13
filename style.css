@@ -46,7 +46,6 @@ ul {
 }
 
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -116,4 +115,25 @@ ul {
     position: absolute;
     bottom: 0 auto;
     color: lemonchiffon;
+}
+
+.icons img {
+    float: left;
+    width: 30%;
+}
+
+@media screen and (max-width: 645px) {
+    #navIcons {
+        width: 100%;
+        float: left;
+        align-content: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #navIcons {
+        width: 100%;
+        float: left;
+        align-content: center;
+    }
 }
